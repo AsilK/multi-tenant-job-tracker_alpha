@@ -4,9 +4,11 @@ A production-ready ASP.NET Core 8 Web API for managing job applications across m
 
 ## Why This Project?
 
-I built this as a showcase of modern .NET backend development practices. The goal was to create something that goes beyond a simple CRUD app — a system that handles real-world concerns like tenant isolation, role-based access, and proper separation of concerns.
+I built this as a showcase of modern .NET backend development practices. The goal was to build something that goes beyond a simple CRUD app, a system that handles real-world concerns like tenant isolation, role-based access, and proper separation of concerns.
 
 The codebase reflects how I approach building maintainable software: keep the domain logic clean, push infrastructure details to the edges, and make the whole thing testable.
+
+For a deeper dive into the architectural decisions and the full list of libraries used, check out the [Technology Stack & Architectural Decisions](TECHNOLOGIES.md) document.
 
 ---
 
@@ -63,7 +65,7 @@ Tenant resolution happens in middleware:
 1. First, check the `X-Tenant-Id` header
 2. If not present, extract from the JWT `tenant_id` claim
 
-This gives flexibility — public endpoints can specify tenant via header, while authenticated users automatically work within their tenant context.
+This gives flexibility, as public endpoints can specify tenant via header, while authenticated users automatically work within their tenant context.
 
 ---
 
@@ -89,12 +91,12 @@ Body: { "email": "...", "password": "..." }
 Response: { "accessToken": "...", "refreshToken": "...", "user": {...} }
 ```
 
-Passwords are hashed with BCrypt. The JWT contains user ID, email, role, and tenant ID — making it possible to authorize requests without hitting the database on every call.
+Passwords are hashed with BCrypt. The JWT contains user ID, email, role, and tenant ID, making it possible to authorize requests without hitting the database on every call.
 
 **Role-Based Access:**
-- `Admin` — Full system access
-- `HR` — Manage jobs and review applications
-- `Candidate` — Apply for jobs, view own applications
+- `Admin`: Full system access
+- `HR`: Manage jobs and review applications
+- `Candidate`: Apply for jobs, view own applications
 
 ---
 
@@ -139,7 +141,7 @@ API available at `http://localhost:5000`
 
 ## API Examples
 
-### Create a Job Posting
+### Add a Job Posting
 
 ```http
 POST /api/jobs
@@ -197,7 +199,7 @@ dotnet test
 Currently covers:
 - User registration (success + validation failures)
 - User login (correct credentials, wrong password, deactivated accounts)
-- Job creation (authorization, tenant context)
+- Job management (authorization, tenant context)
 
 ---
 
