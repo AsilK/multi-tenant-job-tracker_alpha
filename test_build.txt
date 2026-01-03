@@ -1,0 +1,13 @@
+﻿  Geri y├╝klenecek projeler belirleniyor...
+  Geri y├╝kleme i├ğin t├╝m projeler g├╝ncel.
+  JobApplicationTracker.Domain -> C:\Users\asl\Desktop\job_app_net\src\JobApplicationTracker.Domain\bin\Debug\net8.0\JobApplicationTracker.Domain.dll
+  JobApplicationTracker.Application -> C:\Users\asl\Desktop\job_app_net\src\JobApplicationTracker.Application\bin\Debug\net8.0\JobApplicationTracker.Application.dll
+C:\Users\asl\Desktop\job_app_net\tests\JobApplicationTracker.Application.Tests\Features\Auth\RegisterCommandHandlerTests.cs(219,50): error CS0246: 'IAsyncQueryProvider' t├╝r├╝ veya ad alan─▒ ad─▒ bulunamad─▒ (bir using y├Ânergeniz veya derleme ba┼şvurunuz mu eksik?) [C:\Users\asl\Desktop\job_app_net\tests\JobApplicationTracker.Application.Tests\JobApplicationTracker.Application.Tests.csproj]
+
+Olu┼şturma BA┼ŞARISIZ OLDU.
+
+C:\Users\asl\Desktop\job_app_net\tests\JobApplicationTracker.Application.Tests\Features\Auth\RegisterCommandHandlerTests.cs(219,50): error CS0246: 'IAsyncQueryProvider' t├╝r├╝ veya ad alan─▒ ad─▒ bulunamad─▒ (bir using y├Ânergeniz veya derleme ba┼şvurunuz mu eksik?) [C:\Users\asl\Desktop\job_app_net\tests\JobApplicationTracker.Application.Tests\JobApplicationTracker.Application.Tests.csproj]
+    0 Uyar─▒
+    1 Hata
+
+Ge├ğen S├╝re 00:00:07.55
