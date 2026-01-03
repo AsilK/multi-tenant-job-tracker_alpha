@@ -1,0 +1,14 @@
+﻿  Geri y├╝klenecek projeler belirleniyor...
+  Geri y├╝kleme i├ğin t├╝m projeler g├╝ncel.
+  JobApplicationTracker.Domain -> C:\Users\asl\Desktop\job_app_net\src\JobApplicationTracker.Domain\bin\Debug\net8.0\JobApplicationTracker.Domain.dll
+  JobApplicationTracker.Application -> C:\Users\asl\Desktop\job_app_net\src\JobApplicationTracker.Application\bin\Debug\net8.0\JobApplicationTracker.Application.dll
+  JobApplicationTracker.Infrastructure -> C:\Users\asl\Desktop\job_app_net\src\JobApplicationTracker.Infrastructure\bin\Debug\net8.0\JobApplicationTracker.Infrastructure.dll
+C:\Users\asl\Desktop\job_app_net\src\JobApplicationTracker.API\Program.cs(4,25): error CS0234: 'Models' t├╝r veya ad alan─▒ ad─▒ 'Microsoft.OpenApi' ad alan─▒nda yok (bir derleme ba┼şvurunuz mu eksik?) [C:\Users\asl\Desktop\job_app_net\src\JobApplicationTracker.API\JobApplicationTracker.API.csproj]
+
+Olu┼şturma BA┼ŞARISIZ OLDU.
+
+C:\Users\asl\Desktop\job_app_net\src\JobApplicationTracker.API\Program.cs(4,25): error CS0234: 'Models' t├╝r veya ad alan─▒ ad─▒ 'Microsoft.OpenApi' ad alan─▒nda yok (bir derleme ba┼şvurunuz mu eksik?) [C:\Users\asl\Desktop\job_app_net\src\JobApplicationTracker.API\JobApplicationTracker.API.csproj]
+    0 Uyar─▒
+    1 Hata
+
+Ge├ğen S├╝re 00:00:01.06

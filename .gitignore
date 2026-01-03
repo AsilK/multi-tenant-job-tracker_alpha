@@ -1,0 +1,45 @@
+# Build artifacts
+bin/
+obj/
+publish/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test results
+TestResults/
+coverage/
+
+# NuGet
+*.nupkg
+nuget.config
+
+# User-specific files
+appsettings.*.local.json
+
+# EF Core migrations bundle
+efbundle
+
+# Docker
+docker-compose.override.yml
